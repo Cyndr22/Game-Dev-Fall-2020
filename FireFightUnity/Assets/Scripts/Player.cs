@@ -14,6 +14,9 @@ public class Player : MonoBehaviour
     public float waitTime;
     public GameObject bullet;
 
+    private Transform bulletSpawned;
+
+    public float points;
 
     //Methods
     void Update()
@@ -55,6 +58,7 @@ public class Player : MonoBehaviour
 
     void Shoot()
     {
-        Instantiate(bullet.transform, bulletSpawnPoint.transform.position, Quaternion.identity);
+        bulletSpawned = Instantiate(bullet.transform, bulletSpawnPoint.transform.position, Quaternion.identity);
+        bulletSpawned.rotation = bulletSpawnPoint.transform.rotation;
     }
 }
