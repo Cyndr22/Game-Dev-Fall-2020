@@ -17,3 +17,6 @@ We will be adding more maps/levels, better art/assets, game modes including mult
 Map:
 The v1 map is an office enviroment built in Unity ProBuilder, which allowed us to make a lot of combustibles that would be found in the real world, adding a
 fun realistic feel to the game. 
+
+To play:
+Run the executable and when you are done, hit the Esc to quit the game.
