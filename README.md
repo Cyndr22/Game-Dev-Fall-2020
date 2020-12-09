@@ -1,5 +1,6 @@
 Project for Practical Game Development Fall 2020
-Collaborators: Sean Summers, Connor Steed, Harrison Scott, and Dakota Ruhl
+
+Contributors: Sean Summers, Connor Steed, Harrison Scott, and Dakota Ruhl
 
 Firefight is a 2.5d top-down shooter game where you play as a firefighter character with the goal to put out all the fires created by the fireball characters.
 
